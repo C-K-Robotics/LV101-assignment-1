@@ -4,9 +4,9 @@ The files you need to modify are <code>cake_size.vi</code>, <code>discount.vi</c
 
 ### <code>cake_size.vi</code>
 This vi has five input variables: shape, r, a, b, and theta. The vi should calculate and output the size of the cake. 
-- If the shape is "rectangle", the size would be <math display="inline"><mi>a</mi><mo>*</mo><mi>b</mi></math>.
-- If the shape is "round", the size would be <math display="inline"><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup></math>.
-- If the shape is "triangle", calculates the size by the law of sines: <math display="inline"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mi>b</mi><mi>sin θ</mi></math>.
+- If the shape is "rectangle", the size would be $`a \times b`$.
+- If the shape is "round", the size would be $`\pi r^{2}`$.
+- If the shape is "triangle", calculates the size by the law of sines: $`\frac{1}{2} ab \sin{\theta}`$.
 - If none of the cases above, outputs 0.
 
 ### <code>discount.vi</code></h3>
