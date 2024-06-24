@@ -12,7 +12,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="cake_size.vi" Type="VI" URL="../cake_size.vi"/>
+		<Item Name="cake size.vi" Type="VI" URL="../cake size.vi"/>
 		<Item Name="discount.vi" Type="VI" URL="../discount.vi"/>
 		<Item Name="total.vi" Type="VI" URL="../total.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
