@@ -6,12 +6,11 @@ The files you need to modify are <code>cake_size.vi</code>, <code>discount.vi</c
 This VI has five input variables: shape, r, a, b, and theta. Note taht shape is an enum and others are floats. The VI should calculate and output the size of the cake as a float. 
 - If the shape is "rectangle", the size would be $`a \times b`$.
 - If the shape is "round", the size would be $`\pi r^{2}`$.
-- If the shape is "triangle", calculates the size by the law of sines: $`\frac{1}{2} ab \sin{\theta}`$.
-- If none of the cases above, outputs 0.
+- If the shape is "triangle", calculates the size by the law of sines: $`\frac{1}{2} ab \sin{\theta}`$. Theta is measured in degree(as same as the default input for sine function in LabVIEW, so you do not need to make unit conversion).
 
 ## <code>discount.vi</code></h3>
 This VI has a input cluster which contains three values: size(float), flavor(string), and member(boolean). There are two kinds of discounts:
-- The buyer is a member(member variable is true) and the cake is chocolate taste.
+- The buyer is a member(member variable is true) and the cake is chocolate taste(the variable `flavor` is "chocolate").
 - The size is larger than 100 and the cake is not chocolate taste.
 If either of the above cases is met, the VI should output 0.8 meaning a 20% discount. Otherwise, outputs 1 meaning the original price. The output should be a float.
 
